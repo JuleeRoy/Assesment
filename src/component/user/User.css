@@ -1,0 +1,17 @@
+.img-Container{
+    width:30px;
+    
+}
+.img-Container img {
+    width: 100%;
+    border-radius: 50%;
+    border:1px solid gainsboro;
+    /* opacity: 0.6; */
+}
+#user-List{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    cursor: pointer;;
+    /* padding:3px; */
+}

@@ -1,0 +1,48 @@
+:root{
+    --first_bgColor:rgb(104,1,248);
+    --secong_bgColor:rgb(89,31,134);
+}
+
+#chat-Section{
+    position: absolute;
+    right:40px;
+    bottom:0px;
+    z-index:11111;
+    /* height: 400px; */
+    
+}
+#oneUser{
+    display: flex;
+    /* flex: 1; */
+    align-items: center;
+    justify-content: space-between;
+}
+.onlineDot{
+    width:5px;
+    height: 5px;
+    background-color: rgb(0, 128, 85);
+    border-radius: 50%;
+    /* margin-top: 10px; */
+    
+}
+
+#chat-Section > button{
+background-image: linear-gradient(var(--first_bgColor),var(--secong_bgColor));
+ color: white;
+ border: none;
+ padding: 7px 6px;
+ width:14rem;
+ border-radius: 10px 10px 0px 0px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ outline: none;
+ 
+}
+#chat_Card{
+    overflow: scroll;
+    width: 14rem;
+     height: 300px;
+     font-size: smaller;
+}
+

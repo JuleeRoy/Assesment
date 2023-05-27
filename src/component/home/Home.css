@@ -1,0 +1,48 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+#banner{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("../../../public/banner.png");
+
+
+}
+#banner > div{
+  color:gray;
+  background-color: gainsboro;
+  border-radius: 10px 10px 0px 0px;
+}
+#banner-Card{
+    height: 400px;
+    overflow: scroll;
+    border-radius: 0px;
+}
+/* width */
+  ::-webkit-scrollbar {
+    width: 7px;
+    border-radius:5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:efefef; 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:gainsboro; 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+    border-radius: 5px;
+  }
